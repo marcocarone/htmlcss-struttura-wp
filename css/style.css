@@ -16,65 +16,38 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.header-immagine {
-  position: relative;
+nav {
   width: 100%;
-  height: 400px;
-  background-image: url(../img/header-marco-carone.jpg);
-  border: 17px solid #ffffff;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
+  height: 40px;
+  background-color: #666666;
+  text-align: center;
 }
 
- .header-immagine h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  border: 7px solid #ffffff;
-  padding: 20px;
-}
-
-.header-immagine h2 {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 18px;
-}
-
-.header-immagine .icona-montagne {
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 18px;
-}
 .titoli {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
 }
 
-nav {
-  width: 100%;
-  height: 45px;
-  background-color: #666666;
-}
-nav ul li {
+ul.titoli {
   display: inline-block;
+  line-height: 40px;
   list-style-type: none;
-  padding: 10px;
+  text-align: center;
 }
-nav li:hover {
-  background-color: #9e9e9e;
-  height: 45px;
-}
-.titoli a {
+
+ul.titoli a {
   text-decoration: none;
   color: #ffffff;
+}
+
+ul.titoli li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+ul.titoli li:hover {
+  background-color: #9e9e9e;
 }
 
 main {
@@ -107,11 +80,55 @@ h3 {
   color: #666666;
 }
 
+h3#testo-sin {
+  display: inline-block;
+  line-height: 40px
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
 h5 {
   padding-bottom: 10px;
   color: #666666;
   text-align: center;
   font-style: italic;
+}
+
+.header-immagine {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/header-marco-carone.jpg);
+  border: 17px solid #ffffff;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+ .header-immagine h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  border: 7px solid #ffffff;
+  padding: 20px;
+}
+
+.header-immagine h2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 18px;
+}
+
+.icona-montagne {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 18px;
 }
 
 .colonne {
@@ -124,6 +141,12 @@ h5 {
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
+}
+
+.col-sin i {
+  font-size: 30px;
+  vertical-align: middle;
+  color: orange;
 }
 
 .col-centro {
@@ -145,19 +168,6 @@ h5 {
   width: 20%;
 }
 
-#testo-sin {
-  display: inline-block;
-  line-height: 40px
-  vertical-align: middle;
-  padding-left: 10px;
-}
-
-.col-sin i {
-  font-size: 30px;
-  vertical-align: middle;
-  color: orange;
-}
-
 .col-de .widget-destro {
   background-color: #ffffff;
   border-radius: 10px;
@@ -171,8 +181,6 @@ h5 {
   vertical-align: middle;
   padding-bottom: 15px;
 }
-
-
 .rss a {
   text-decoration: none;
   color: green;
@@ -190,4 +198,16 @@ h5 {
   font-size: 50px;
   color: #afadad;
   padding-top: 20px;
+}
+
+.col-footer-sin a,
+.col-footer-cen a,
+.col-footer-des a {
+  color: #afadad;
+}
+
+.col-footer-sin a:hover,
+.col-footer-cen a:hover,
+.col-footer-des a:hover {
+  color: #666666;
 }
