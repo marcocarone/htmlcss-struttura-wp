@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/pattern-legno-marco-carone.png);
+  background-position: left;
+  background-repeat: repeat;
+  position: relative;
+  top: 20px;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-immagine {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/header-marco-carone.jpg);
+  border: 17px solid #ffffff;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+ .header-immagine h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  border: 7px solid #ffffff;
+  padding: 20px;
+}
+
+.header-immagine h2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 18px;
+}
+
+.header-immagine .icona-montagne {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 18px;
+}
+.titoli {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.titoli a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  width: 100%;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.colonne {
+  float: left;
+}
+
+.col-sin {
+  width: 20%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.col-centro {
+  width: 55%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.col-centro h2 {
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #cccccc;
+  color: #666666;
+}
+.col-de {
+  width: 20%;
+}
+
+
+h3 {
+  margin-bottom: 35px;
+  text-shadow: 2px 2px #cccccc;
+  color: #666666;
+}
+
+h5 {
+  padding-bottom: 10px;
+  color: #666666;
+  text-align: center;
+  font-style: italic;
+}
+.col-de .widget-destro {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.rss li{
+  display: block;
+  list-style-type: none;
+  vertical-align: middle;
+  padding-bottom: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.rss a {
+  text-decoration: none;
+  color: green;
+}
+
+.colonne-footer {
+  float:left;
+}
+
+.col-footer-sin,
+.col-footer-cen,
+.col-footer-des {
+  width: 33.33%;
+}
