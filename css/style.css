@@ -133,16 +133,19 @@ h5 {
   font-size: 18px;
 }
 
-.colonne {
+.float {
   float: left;
 }
 
-.col-sin {
-  width: 20%;
+.col {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
+}
+
+.col-sin {
+  width: 20%;
 }
 
 .col-sin i {
@@ -155,11 +158,8 @@ h5 {
   width: 55%;
   margin-right: 2.5%;
   margin-left: 2.5%;
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 20px;
 }
+
 .col-centro h2 {
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -168,13 +168,6 @@ h5 {
 }
 .col-de {
   width: 20%;
-}
-
-.widget-destro {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 20px;
 }
 
 .img-articolo {
