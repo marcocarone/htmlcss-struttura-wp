@@ -13,7 +13,7 @@ body {
   left: 50%;
   transform: translatex(-50%);
   width: 80%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 nav {
@@ -39,6 +39,8 @@ ul.titoli {
 ul.titoli a {
   text-decoration: none;
   color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 ul.titoli li {
@@ -97,7 +99,7 @@ h5 {
   width: 100%;
   height: 400px;
   background-image: url(../img/header-marco-carone.jpg);
-  border: 17px solid #ffffff;
+  border: 12px solid #ffffff;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -108,9 +110,10 @@ h5 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 60px;
+  font-size: 70px;
   border: 7px solid #ffffff;
   padding: 20px;
+  font-weight: 400;
 }
 
 .header-immagine h2 {
@@ -118,7 +121,7 @@ h5 {
   top: 80%;
   left: 50%;
   transform: translate(-50%);
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .icona-montagne {
