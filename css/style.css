@@ -179,7 +179,16 @@ h5 {
 
 .img-articolo {
   width: 100%;
+  height: 250px;
+  overflow: hidden;
   margin-bottom: 20px;
+  background-image: url(../img/immagine-articolo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-articolo > img {
+  display: none;
 }
 
 .rss li{
