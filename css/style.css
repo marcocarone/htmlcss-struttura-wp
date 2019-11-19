@@ -177,6 +177,11 @@ h5 {
   margin-top: 20px;
 }
 
+.col-centro .img-articolo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .rss li{
   display: block;
   list-style-type: none;
@@ -212,4 +217,7 @@ h5 {
 .col-footer-cen a:hover,
 .col-footer-des a:hover {
   color: #666666;
+}
+footer hr {
+  border: 1px solid #afadad;
 }
